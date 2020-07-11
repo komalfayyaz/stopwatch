@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">     
+    <title>Document</title>
+</head>
+
+<style>
+body {
+      background-color: darkslateblue;
+      text-align: center;
+}
+ button {
+      height: 70px;
+      width: 70px;
+      border-radius: 100%;
+      background-color:  darkslateblue;
+      margin: 30px;
+      
+      
+ }
+
+ div h1 {
+     display: inline-block;
+     margin-top: 70px;
+     width: 80px;
+     
+ }
+
+
+
+</style>
+<body>
+      
+
+       <h1 style="font-size: 90px; color: gold ; font-style: bold; font-family: monospace;font-weight: 50;"> GOLD <SPAN style="font-size: 80px; color: floralwhite; font-style: italic; font-family: monospace;font-weight: 30;">  stop watch</h1>
+
+    <div style="border-radius: 100% ;  border-style: solid; width: 250px; height: 180px ; margin-left: 580px; margin-bottom: 30px; color: floralwhite; font-style: italic " >
+     <div >
+         <h1 id="min">0</h1>
+         <h1 id="sec">0</h1>
+         <h1 id="msec">0</h1>
+     </div>
+      </div>
+
+      <div>
+         <button onclick="start()" id="str">Start</button>
+         <button onclick="pause()">Pause</button>
+         <button onclick="reset()">Reset</button>
+        </div>
+
+
+      
+        <script src="app.js"></script>
+
+</body>
+</html>
